@@ -9,9 +9,8 @@
 import requests
 import execjs
 import time
-from shikee_pwd import name_pwd
 
-name, password = name_pwd()
+name, password = 'login_name', 'login_password'
 session = requests.Session()
 
 
